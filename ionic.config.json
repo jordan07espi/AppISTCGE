@@ -1,0 +1,7 @@
+{
+  "name": "istcge",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

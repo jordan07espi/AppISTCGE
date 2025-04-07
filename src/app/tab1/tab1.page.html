@@ -1,0 +1,74 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="primary">
+    <ion-title>
+      Instituto CGE
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="ion-padding">
+  <ion-list class="custom-list">
+    <ion-item button="true" detail="true" (click)="goTo('sga')" lines="none" class="custom-item">
+      <img src="assets/icon/instituto/sga.png" alt="SGA Icon" slot="start" class="custom-list-icon"/>
+      <ion-label>
+        <h2>SGA</h2>
+        <p>Sistema de Gestión Académica</p>
+      </ion-label>
+    </ion-item>
+
+    <ion-item button="true" detail="true" (click)="goTo('correo')" lines="none" class="custom-item">
+      <img src="assets/icon/instituto/correo.png" alt="Correo Icon" slot="start" class="custom-list-icon"/>
+      <ion-label>
+        <h2>Correo</h2>
+        <p>Correo Institucional</p>
+      </ion-label>
+    </ion-item>
+
+    <ion-item button="true" detail="true" (click)="goTo('aula-virtual')" lines="none" class="custom-item">
+      <img src="assets/icon/instituto/campus virtual.png" alt="Campus Icon" slot="start" class="custom-list-icon"/> 
+      <ion-label>
+        <h2>Campus Virtual</h2>
+        <p>Afrodita, Hera, Hermes, Poseidon</p>
+      </ion-label>
+    </ion-item>
+
+    <ion-item button="true" detail="true" (click)="goTo('office')" lines="none" class="custom-item">
+      <img src="assets/icon/instituto/office.png" alt="Office Icon" slot="start" class="custom-list-icon"/>
+      <ion-label>
+        <h2>Office 365</h2>
+        <p>Word, Exel, Power Point, OneDrive</p>
+      </ion-label>
+    </ion-item>
+
+    <ion-item button="true" detail="true" (click)="goTo('biblioteca')" lines="none" class="custom-item">
+      <img src="assets/icon/instituto/biblioteca.png" alt="Biblioteca Icon" slot="start" class="custom-list-icon"/>
+      <ion-label>
+        <h2>eLibro</h2>
+        <p>Biblioteca Virtual</p>
+      </ion-label>
+    </ion-item>
+
+    <ion-item button="true" detail="true" (click)="goTo('soporte')" lines="none" class="custom-item">
+       <img src="assets/icon/instituto/soporte-tecnico.png" alt="Soporte Icon" slot="start" class="custom-list-icon"/>
+      <ion-label>
+        <h2>Soporte Técnico</h2>
+        <p>SGA, Correo, Campus Virtual, Office 365</p>
+      </ion-label>
+    </ion-item>
+
+    <ion-item button="true" detail="true" (click)="goTo('contactos')" lines="none" class="custom-item"> <img src="assets/icon/instituto/contactos.png" alt="Contactos Icon" slot="start" class="custom-list-icon"/>
+      <ion-label>
+        <h2>Contactos</h2>
+        <p>Horarios, Direcciones, Número de contacto</p>
+      </ion-label>
+    </ion-item>
+
+    <ion-item button="true" detail="true" (click)="goTo('denuncias')" lines="none" class="custom-item">
+       <img src="assets/icon/instituto/denuncias.png" alt="Denuncias Icon" slot="start" class="custom-list-icon"/>
+      <ion-label>
+        <h2>Denuncias</h2>
+        <p>No te quedes callado</p>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>
