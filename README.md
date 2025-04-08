@@ -7,10 +7,11 @@
 ---
 
 ## 📸 Captura de Pantalla  
-
-_(Sube la imagen a tu repositorio en una carpeta `screenshots/` y ajusta la ruta en la línea de abajo)_
-
 ![Captura de la App CGE](screenshots/inst.jpeg)
+![Captura de la App CGE](screenshots/cap.jpeg)
+![Captura de la App CGE](screenshots/fund.jpeg)
+![Captura de la App CGE](screenshots/rec.jpeg)
+
 
 ---
 
