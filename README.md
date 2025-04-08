@@ -7,11 +7,12 @@
 ---
 
 ## 📸 Captura de Pantalla  
-![Captura de la App CGE](screenshots/inst.jpeg)
-![Captura de la App CGE](screenshots/cap.jpeg)
-![Captura de la App CGE](screenshots/fund.jpeg)
-![Captura de la App CGE](screenshots/rec.jpeg)
-
+<p align="center">
+  <img src="screenshots/inst.jpeg" width="150" />
+  <img src="screenshots/cap.jpeg" width="150" />
+  <img src="screenshots/fund.jpeg" width="150" />
+  <img src="screenshots/rec.jpeg" width="150" />
+</p>
 
 ---
 
