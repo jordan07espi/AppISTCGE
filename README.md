@@ -1,6 +1,6 @@
 ---
 
-# 🚀 Aplicación CGE (Ionic)  
+# 🚀 Aplicación CGE
 
 📱 Aplicación móvil desarrollada con **Ionic** y **Angular** para centralizar el acceso a los recursos web y servicios principales del **Instituto CGE**, **Capacitadora CGE** y **Fundación CGE**.
 
