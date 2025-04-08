@@ -14,7 +14,7 @@ export class Tab1Page {
     correo: 'https://login.microsoftonline.com/',
     campus: 'https://web.istcge.edu.ec/entorno-virtual-de-aprendizaje/',
     office: 'https://login.microsoftonline.com/',
-    elibro: 'https://elibro.net/es/lc/tuinstituto/inicio',
+    elibro: 'https://elibro.net/es/lc/istcge/login_usuario/?next=/es/lc/istcge/inicio/?referrerpolicy=%22unsafe-url%22',
     soporte: 'https://somoscge.com/soporte/', 
     contactos: 'https://web.istcge.edu.ec/contacto/', // URL para Contactos
     denuncias: 'https://web.istcge.edu.ec/denuncias/', // URL para Denuncias
