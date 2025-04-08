@@ -103,7 +103,7 @@ npx cap open ios      # Para Xcode
 
 Este proyecto es de uso interno del **Instituto CGE** y sus entidades asociadas.  
 
-💡 _Creado con 💙 por [Jordan Espinosa]_  
+💡 _Creado con 💙 por Jordan Espinosa_  
 📅 _Última actualización: Abril 2025_
 
 ---
