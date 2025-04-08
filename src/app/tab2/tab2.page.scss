@@ -1,46 +1,48 @@
 ion-item.custom-item {
-    --background: #f2f2f2; 
-    border-radius: 8px; 
-    margin-bottom: 12px; 
-    align-items: center; // Mantiene la alineación vertical
-  
-    // Estilos para la IMAGEN personalizada
-    img.custom-list-icon {
-      width: 50px;     // Ancho deseado (ajusta según veas necesario)
-      height: 50px;    // Alto deseado (ajusta según veas necesario)
-      object-fit: contain; // Asegura que la imagen se escale sin deformarse dentro del tamaño definido
-      margin-right: 16px; // Espacio a la derecha de la imagen
-      margin-left: 8px;  // Espacio a la izquierda de la imagen
+  --background: #f2f2f2; 
+  border-radius: 8px; 
+  margin-bottom: 12px; 
+  align-items: center; // Mantiene la alineación vertical
+
+  // Estilos para la IMAGEN personalizada
+  img.custom-list-icon {
+    width: 50px;     // Ancho deseado 
+    height: 50px;    // Alto deseado 
+    object-fit: contain; // Asegura que la imagen se escale sin deformarse dentro del tamaño definido
+    margin-right: 16px; // Espacio a la derecha de la imagen
+    margin-left: 8px;  // Espacio a la izquierda de la imagen
+  }
+
+  ion-label {
+    h2 {
+      font-weight: bold; 
+      font-size: 1em; 
+      color: #333; 
+      margin-bottom: 2px; 
     }
-  
-    ion-label {
-      h2 {
-        font-weight: bold; 
-        font-size: 1em; 
-        color: #333; 
-        margin-bottom: 2px; 
-      }
-      p {
-        font-size: 0.8em; 
-        color: #666; 
-      }
+    p {
+      font-size: 0.8em; 
+      color: #666; 
     }
   }
-  
-  ion-item.custom-item:last-child {
-     margin-bottom: 0;
-  }
-  
-  // --- Otros estilos que ya tenías ---
-  ion-list.custom-list {
-    background: transparent; 
-    padding: 0; 
-  }
-  
-  ion-content {
-    --background: #ffffff; 
-  }
-  
-  ion-tab-bar {
-    // Estilos de tab bar si los tienes
-  }
+}
+
+ion-item.custom-item:last-child {
+   margin-bottom: 0;
+}
+
+
+ion-list.custom-list {
+  background: transparent; 
+  padding: 0; 
+}
+
+ion-content {
+  --background: #ffffff; 
+  --padding-bottom: 70px;
+}
+
+ion-fab ion-fab-button ion-icon {
+  font-size: 40px; 
+}
+

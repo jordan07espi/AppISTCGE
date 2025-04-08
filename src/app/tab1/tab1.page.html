@@ -1,4 +1,4 @@
-<ion-header [translucent]="true">
+<ion-header [translucent]="false">
   <ion-toolbar color="primary">
     <ion-title>
       Instituto CGE
@@ -6,7 +6,7 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true" class="ion-padding">
+<ion-content [fullscreen]="false" class="ion-padding">
   <ion-list class="custom-list">
     <ion-item button="true" detail="true" (click)="goTo('sga')" lines="none" class="custom-item">
       <img src="assets/icon/instituto/sga.png" alt="SGA Icon" slot="start" class="custom-list-icon"/>
@@ -72,4 +72,10 @@
       </ion-label>
     </ion-item>
   </ion-list>
+
+  <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+    <ion-fab-button (click)="openWhatsApp()" color="success">
+      <ion-icon name="logo-whatsapp"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
 </ion-content>
