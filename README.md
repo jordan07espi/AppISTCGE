@@ -10,7 +10,7 @@
 
 _(Sube la imagen a tu repositorio en una carpeta `screenshots/` y ajusta la ruta en la línea de abajo)_
 
-![Captura de la App CGE](screenshots/image_2a20b2.jpg)
+![Captura de la App CGE](screenshots/inst.jpeg)
 
 ---
 
