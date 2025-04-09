@@ -52,7 +52,7 @@
 
 ### 🔹 1. Clona el repositorio  
 ```bash
-git clone <URL_DE_TU_REPOSITORIO>
+git clone https://github.com/jordan07espi/AppISTCGE.git
 cd <NOMBRE_DEL_PROYECTO>
 ```
 
