@@ -24,12 +24,11 @@
       </ion-label>
     </ion-item>
 
-    <ion-item button="true" detail="true" (click)="goTo('campus')" lines="none" class="custom-item">
-      <img src="assets/icon/instituto/campus virtual.png" alt="Campus Icon" slot="start" class="custom-list-icon"/> 
+    <ion-item button="true" detail="true" [routerLink]="['campus-virtual']" lines="none" class="custom-item">
+      <img src="assets/icon/instituto/campus virtual.png" alt="Campus Icon" slot="start" class="custom-list-icon"/>
       <ion-label>
         <h2>Campus Virtual</h2>
-        <p>Afrodita, Hera, Hermes, Poseidon</p>
-      </ion-label>
+        <p>Afrodita, Hera, Hermes, Poseidon, Zeus, Apolo</p> </ion-label>
     </ion-item>
 
     <ion-item button="true" detail="true" (click)="goTo('office')" lines="none" class="custom-item">

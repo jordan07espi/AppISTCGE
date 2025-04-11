@@ -1,0 +1,53 @@
+<ion-header [translucent]="false">
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/tabs/tab1"></ion-back-button>
+      </ion-buttons>
+    <ion-title>Campus Virtual</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="ion-padding">
+  <ion-list class="custom-list"> 
+    <ion-item button="true" detail="true" (click)="openCampus('afrodita')" lines="none" class="custom-item">
+      <img src="assets/icon/campus/afrodita.png" alt="Campus Icon" slot="start" class="custom-list-icon"/> 
+      <ion-label>
+        <h2>Afrodita</h2>
+        <p>Santo Domingo</p>
+      </ion-label>
+    </ion-item>
+
+    <ion-item button="true" detail="true" (click)="openCampus('hermes')" lines="none" class="custom-item">
+      <img src="assets/icon/campus/hermes.png" alt="Campus Icon" slot="start" class="custom-list-icon"/> 
+      <ion-label>
+        <h2>Hermes</h2>
+        <p>Quininde, Quevedo, Riobamba, Ambato</p>
+      </ion-label>
+    </ion-item>
+
+    <ion-item button="true" detail="true" (click)="openCampus('hera')" lines="none" class="custom-item">
+      <img src="assets/icon/campus/hera.png" alt="Campus Icon" slot="start" class="custom-list-icon"/> 
+      <ion-label>
+        <h2>Hera</h2>
+        <p>Machala, Cuenca</p>
+      </ion-label>
+    </ion-item>
+
+    <ion-item button="true" detail="true" (click)="openCampus('zeus')" lines="none" class="custom-item">
+      <img src="assets/icon/campus/zeus.png" alt="Campus Icon" slot="start" class="custom-list-icon"/> 
+      <ion-label>
+        <h2>Zeus</h2>
+        <p>Quito</p>
+      </ion-label>
+    </ion-item>
+
+    <ion-item button="true" detail="true" (click)="openCampus('apolo')" lines="none" class="custom-item">
+      <img src="assets/icon/campus/apolo.png" alt="Campus Icon" slot="start" class="custom-list-icon"/> 
+      <ion-label>
+        <h2>Apolo</h2>
+        <p>Educación en línea</p>
+      </ion-label>
+    </ion-item>
+
+  </ion-list>
+   </ion-content>
