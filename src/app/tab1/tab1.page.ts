@@ -9,17 +9,17 @@ import { Browser } from '@capacitor/browser';
 })
 export class Tab1Page {
   // Define URLs externas para todos los apartados
-  private externalUrls: Record<'sga' | 'correo' | 'office' | 'elibro' | 'soporte' | 'contactos' | 'denuncias', string> = {
+  private externalUrls: Record<'sga' | 'correo' | 'office' | 'elibro' | 'soporte' | 'denuncias', string> = {
     sga: 'https://istcge.academicok.com/',
     correo: 'https://login.microsoftonline.com/',
     office: 'https://login.microsoftonline.com/',
     elibro: 'https://elibro.net/es/lc/istcge/login_usuario/?next=/es/lc/istcge/inicio/?referrerpolicy=%22unsafe-url%22',
     soporte: 'https://somoscge.com/soporte/', 
-    contactos: 'https://web.istcge.edu.ec/contacto/', // URL para Contactos
+
     denuncias: 'https://web.istcge.edu.ec/denuncias/', // URL para Denuncias
   };
 
-  async goTo(pageIdentifier: 'sga' | 'correo' | 'office' | 'elibro' | 'soporte' | 'contactos' | 'denuncias') {
+  async goTo(pageIdentifier: 'sga' | 'correo' | 'office' | 'elibro' | 'soporte' | 'denuncias') {
     console.log('Ir a:', pageIdentifier);
 
     // Verifica si el identificador tiene una URL asociada

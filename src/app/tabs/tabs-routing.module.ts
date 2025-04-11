@@ -17,12 +17,12 @@ const routes: Routes = [
           {
             path: 'campus-virtual', 
             loadChildren: () => import('../pages/campus/campus.module').then( m => m.CampusPageModule)
-          }
+          },
+          {
+            path: 'contactos',
+            loadChildren: () => import('../pages/contactos/contactos.module').then( m => m.ContactosPageModule)
+          },
         ]
-      },
-      {
-        path: 'tab1',
-        loadChildren: () => import('../tab1/tab1.module').then(m => m.Tab1PageModule)
       },
       {
         path: 'tab2',

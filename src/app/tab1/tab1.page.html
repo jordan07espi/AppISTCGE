@@ -55,11 +55,11 @@
       </ion-label>
     </ion-item>
 
-    <ion-item button="true" detail="true" (click)="goTo('contactos')" lines="none" class="custom-item">
-      <img src="assets/icon/instituto/contactos.png" alt="Contactos Icon" slot="start" class="custom-list-icon"/>
+    <ion-item button="true" detail="true" [routerLink]="['contactos']" lines="none" class="custom-item">
+      <img src="assets/icon/instituto/contactos.png" alt="Campus Icon" slot="start" class="custom-list-icon"/>
       <ion-label>
         <h2>Contactos</h2>
-        <p>Teléfonos, direcciones y horarios</p>
+        <p>Teléfonos, direcciones, horarios</p>
       </ion-label>
     </ion-item>
         

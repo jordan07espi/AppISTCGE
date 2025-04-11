@@ -1,0 +1,45 @@
+<ion-header [translucent]="false">
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/tabs/tab1"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Contactos</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="ion-padding">
+
+  <ion-card *ngFor="let location of contactLocations" class="contact-card">
+    <ion-card-header>
+      <ion-card-title>{{ location.title }}</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <ion-item lines="none">
+        <ion-icon name="location-outline" slot="start" color="primary"></ion-icon>
+        <ion-label class="ion-text-wrap">{{ location.address }}</ion-label>
+      </ion-item>
+
+      <ion-item lines="none">
+        <ion-icon name="time-outline" slot="start" color="primary"></ion-icon>
+        <ion-label>{{ location.schedule }}</ion-label>
+      </ion-item>
+
+      <ion-item lines="none">
+        <ion-icon name="call-outline" slot="start" color="primary"></ion-icon>
+        <ion-label>{{ location.phone }}</ion-label>
+        </ion-item>
+
+      <ion-item lines="none">
+        <ion-icon name="mail-outline" slot="start" color="primary"></ion-icon>
+         <ion-label><a [href]="'mailto:' + location.email">{{ location.email }}</a></ion-label>
+      </ion-item>
+
+      <ion-button expand="full" color="success" class="whatsapp-button" (click)="openWhatsAppForContact(location.whatsappNumber)">
+        <ion-icon slot="start" name="logo-whatsapp"></ion-icon>
+        Más información
+      </ion-button>
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>
