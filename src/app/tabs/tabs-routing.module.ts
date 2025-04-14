@@ -30,7 +30,16 @@ const routes: Routes = [
       },
       {
         path: 'tab2',
-        loadChildren: () => import('../tab2/tab2.module').then(m => m.Tab2PageModule)
+        children: [
+          {path: '',
+          loadChildren: () => import('../tab2/tab2.module').then(m => m.Tab2PageModule)
+          },
+          {
+            path: 'redesca',
+            loadChildren: () => import('../pages/redescap/redescap.module').then( m => m.RedescapPageModule)
+          },
+        ]
+        
       },
       {
         path: 'tab3',

@@ -1,0 +1,47 @@
+<ion-header [translucent]="false">
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/tabs/tab2"></ion-back-button>
+      </ion-buttons>
+    <ion-title>Redes Socialesl</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="ion-padding">
+  <ion-list class="custom-list">
+    <ion-item button="true" detail="true" (click)="goTo('facebook')" lines="none" class="custom-item">
+      <img src="assets/icon/redes/facebook.png" alt="SGA Icon" slot="start" class="custom-list-icon"/>
+      <ion-label>
+        <h2>Facbook</h2>
+        <p>Escucha la mejor música</p>
+      </ion-label>
+    </ion-item>
+
+    <ion-item button="true" detail="true" (click)="goTo('instagram')" lines="none" class="custom-item">
+      <img src="assets/icon/redes/instagram.png" alt="SGA Icon" slot="start" class="custom-list-icon"/>
+      <ion-label>
+        <h2>Instagram</h2>
+        <p>Alcanza la sabiduria</p>
+      </ion-label>
+    </ion-item>
+
+    <ion-item button="true" detail="true" (click)="goTo('x')" lines="none" class="custom-item">
+      <img src="assets/icon/redes/gorjeo.png" alt="SGA Icon" slot="start" class="custom-list-icon"/>
+      <ion-label>
+        <h2>X</h2>
+        <p>Escucha la mejor música</p>
+      </ion-label>
+    </ion-item>
+
+    <ion-item button="true" detail="true" (click)="goTo('tiktok')" lines="none" class="custom-item">
+      <img src="assets/icon/redes/tik-tok.png" alt="SGA Icon" slot="start" class="custom-list-icon"/>
+      <ion-label>
+        <h2>Tik Tok</h2>
+        <p>Alcanza la sabiduria</p>
+      </ion-label>
+    </ion-item>
+
+
+  </ion-list>
+
+</ion-content>

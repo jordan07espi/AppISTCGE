@@ -1,19 +1,19 @@
-import { Component} from '@angular/core';
+import { Component } from '@angular/core';
 import { Browser } from '@capacitor/browser';
 
 @Component({
-  selector: 'app-redes',
-  templateUrl: './redes.page.html',
-  styleUrls: ['./redes.page.scss'],
+  selector: 'app-redescap',
+  templateUrl: './redescap.page.html',
+  styleUrls: ['./redescap.page.scss'],
   standalone: false,
 })
-export class RedesPage  {
+export class RedescapPage  {
 
   private externalUrls: Record<'facebook' | 'instagram'| 'x'| 'tiktok' , string> = {
-  facebook: 'https://www.facebook.com/istcge.edu.ec',
-  instagram: 'https://www.instagram.com/istcge.ec/',
-  x: 'https://x.com/ISTE_ec',
-  tiktok: 'https://www.tiktok.com/@istcge.edu.ec',
+  facebook: 'https://www.facebook.com/cge.ec',
+  instagram: 'https://www.instagram.com/cge.ec',
+  x: 'https://x.com/cgeecuador',
+  tiktok: 'https://www.tiktok.com/@cge.ec',
   };
 
   async goTo(pageIdentifier: 'facebook' |'instagram'| 'x'| 'tiktok') {
