@@ -43,7 +43,16 @@ const routes: Routes = [
       },
       {
         path: 'tab3',
-        loadChildren: () => import('../tab3/tab3.module').then(m => m.Tab3PageModule)
+        children: [
+          {
+            path: '',
+            loadChildren: () => import('../tab3/tab3.module').then(m => m.Tab3PageModule)
+          },
+          {
+            path: 'redesfun',
+            loadChildren: () => import('../pages/redesfun/redesfun.module').then( m => m.RedesfunPageModule)
+          }
+        ]
       },
       {
         path: 'tab4',
