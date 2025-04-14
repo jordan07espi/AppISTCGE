@@ -1,0 +1,97 @@
+<ion-header [translucent]="false">
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/tabs/tab4"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Tutoriales</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content [fullscreen]="true" class="ion-padding">
+  <ion-list class="custom-list">
+
+    <ion-item button="true" detail="true" (click)="goTo('general')" lines="none" class="custom-item">
+      <img src="assets/icon/tutoriales/tutorial.png" alt="SGA Icon" slot="start" class="custom-list-icon"/>
+      <ion-label>
+        <h2>Todos los tutorales</h2>
+        <p>Ponemos a su disposición diferentes tutorales</p>
+      </ion-label>
+    </ion-item>
+
+    <ion-item button="true" detail="true" (click)="goTo('teams')" lines="none" class="custom-item">
+      <img src="assets/icon/tutoriales/teams.png" alt="SGA Icon" slot="start" class="custom-list-icon"/>
+      <ion-label>
+        <h2>Ingreso a Teams</h2>
+        <p>Accede a tu cuenta de Microsoft Teams paso a paso</p>
+      </ion-label>
+    </ion-item>
+
+    <ion-item button="true" detail="true" (click)="goTo('reunionteams')" lines="none" class="custom-item">
+      <img src="assets/icon/tutoriales/meet.png" alt="SGA Icon" slot="start" class="custom-list-icon"/>
+      <ion-label>
+        <h2>Ingreso a una reunión</h2>
+        <p>Conéctate fácilmente a tus clases y sesiones virtuales</p>
+      </ion-label>
+    </ion-item>
+
+    <ion-item button="true" detail="true" (click)="goTo('moodle')" lines="none" class="custom-item">
+      <img src="assets/icon/tutoriales/moodle.png" alt="Denuncias Icon" slot="start" class="custom-list-icon"/>
+      <ion-label>
+        <h2>Ingreso a Moodle</h2>
+        <p>Cómo iniciar sesión en la plataforma Moodle</p>
+      </ion-label>
+    </ion-item>
+
+    <ion-item button="true" detail="true" (click)="goTo('campusvirtual')" lines="none" class="custom-item">
+      <img src="assets/icon/tutoriales/campus virtual.png" alt="SGA Icon" slot="start" class="custom-list-icon"/>
+      <ion-label>
+        <h2>Campus Virtual</h2>
+        <p>Explora las funciones y herramientas de tu aula virtual</p>
+      </ion-label>
+    </ion-item>
+
+    <ion-item button="true" detail="true" (click)="goTo('perfil')" lines="none" class="custom-item">
+      <img src="assets/icon/tutoriales/perfil.png" alt="SGA Icon" slot="start" class="custom-list-icon"/>
+      <ion-label>
+        <h2>Actualización de Perfil</h2>
+        <p>Mantén tu información personal y de contacto al día</p>
+      </ion-label>
+    </ion-item>
+
+    <ion-item button="true" detail="true" (click)="goTo('tarea')" lines="none" class="custom-item">
+      <img src="assets/icon/tutoriales/tarea.png" alt="Denuncias Icon" slot="start" class="custom-list-icon"/>
+      <ion-label>
+        <h2>Entregar tarea</h2>
+        <p>Aprende a subir y enviar tus deberes en la plataforma</p>
+      </ion-label>
+    </ion-item>
+
+    <ion-item button="true" detail="true" (click)="goTo('prueba')" lines="none" class="custom-item">
+      <img src="assets/icon/tutoriales/prueba.png" alt="SGA Icon" slot="start" class="custom-list-icon"/>
+      <ion-label>
+        <h2>Rendir Prueba o Lección</h2>
+        <p>Cómo acceder y completar tus evaluaciones virtuales</p>
+      </ion-label>
+    </ion-item>
+
+    <ion-item button="true" detail="true" (click)="goTo('pago')" lines="none" class="custom-item">
+      <img src="assets/icon/tutoriales/pago.png" alt="SGA Icon" slot="start" class="custom-list-icon"/>
+      <ion-label>
+        <h2>Pago Online</h2>
+        <p>Realiza tus pagos de forma segura y rápida por internet</p>
+      </ion-label>
+    </ion-item>
+
+    <ion-item button="true" detail="true" (click)="goTo('pagosga')" lines="none" class="custom-item">
+      <img src="assets/icon/tutoriales/registrar.png" alt="Denuncias Icon" slot="start" class="custom-list-icon"/>
+      <ion-label>
+        <h2>Registro de Pago SGA</h2>
+        <p>Guía para validar tus pagos en el SGA</p>
+      </ion-label>
+    </ion-item>
+
+  </ion-list>
+
+
+</ion-content>

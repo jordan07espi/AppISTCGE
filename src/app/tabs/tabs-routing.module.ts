@@ -34,7 +34,16 @@ const routes: Routes = [
       },
       {
         path: 'tab4',
-        loadChildren: () => import('../tab4/tab4.module').then( m => m.Tab4PageModule)
+        children: [
+          {
+            path: '', 
+            loadChildren: () => import('../tab4/tab4.module').then(m => m.Tab4PageModule)
+          },
+          {
+            path: 'tutoriales',
+            loadChildren: () => import('../pages/tutoriales/tutoriales.module').then( m => m.TutorialesPageModule)
+          },
+        ]
       },
       {
         path: '',
