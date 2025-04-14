@@ -22,6 +22,10 @@ const routes: Routes = [
             path: 'contactos',
             loadChildren: () => import('../pages/contactos/contactos.module').then( m => m.ContactosPageModule)
           },
+          {
+            path: 'redes',
+            loadChildren: () => import('../pages/redes/redes.module').then( m => m.RedesPageModule)
+          },
         ]
       },
       {
