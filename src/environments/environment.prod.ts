@@ -1,3 +1,4 @@
 export const environment = {
-  production: true
+  production: false,
+  mainWhatsAppNumber: '593982246028' 
 };

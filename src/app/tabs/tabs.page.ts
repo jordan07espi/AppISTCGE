@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Browser } from '@capacitor/browser';
+import { environment } from 'src/environments/environment.prod';
 
 @Component({
   selector: 'app-tabs',
@@ -9,8 +10,7 @@ import { Browser } from '@capacitor/browser';
 })
 export class TabsPage {
 
-  // Definir constantes para el número y mensaje (opcional pero buena práctica)
-  private readonly WHATSAPP_NUMBER = '593982246028';
+  private readonly WHATSAPP_NUMBER = environment.mainWhatsAppNumber; 
   private readonly WHATSAPP_MESSAGE = 'Más información CGE 👍';
 
   constructor() {}
