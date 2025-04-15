@@ -17,8 +17,8 @@ export class TabsPage {
 
   async openWhatsApp() {
     const encodedMessage = encodeURIComponent(this.WHATSAPP_MESSAGE);
-    const whatsappUrl = `https://wa.me/<span class="math-inline">\{this\.WHATSAPP\_NUMBER\}?text\=</span>{encodedMessage}`;
-
+    const whatsappUrl = `https://wa.me/${this.WHATSAPP_NUMBER}?text=${encodedMessage}`;
+  
     try {
       console.log('Abriendo WhatsApp desde TabsPage:', whatsappUrl); 
       await Browser.open({ url: whatsappUrl });
@@ -26,5 +26,4 @@ export class TabsPage {
       console.error('Error al abrir WhatsApp desde TabsPage:', error); 
     }
   }
-
 }
