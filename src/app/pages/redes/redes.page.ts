@@ -11,7 +11,7 @@ export class RedesPage  {
 
   private externalUrls: Record<'facebook' | 'instagram'| 'x'| 'tiktok' , string> = {
   facebook: 'https://www.facebook.com/istcge.edu.ec',
-  instagram: 'https://www.instagram.com/istcge.ec/',
+  instagram: 'https://www.instagram.com/istcge',
   x: 'https://x.com/ISTE_ec',
   tiktok: 'https://www.tiktok.com/@istcge.edu.ec',
   };

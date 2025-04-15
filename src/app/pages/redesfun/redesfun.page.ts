@@ -9,14 +9,13 @@ import { Browser } from '@capacitor/browser';
 })
 export class RedesfunPage  {
 
-  private externalUrls: Record<'facebook' | 'instagram'| 'x'| 'tiktok' , string> = {
+  private externalUrls: Record<'facebook' | 'instagram'| 'correo' , string> = {
     facebook: 'https://www.facebook.com/cgefundacion',
-    instagram: 'https://www.instagram.com/fcge593',
-    x: 'https://x.com/cgeecuador',
-    tiktok: 'https://www.tiktok.com/@cge.ec',
+    instagram: 'https://www.instagram.com/fundacioncge',
+    correo: 'https://cgefoundation.org/contacto',
     };
   
-    async goTo(pageIdentifier: 'facebook' |'instagram'| 'x'| 'tiktok') {
+    async goTo(pageIdentifier: 'facebook' |'instagram'| 'correo') {
       console.log('Ir a:', pageIdentifier);
   
       // Verifica si el identificador tiene una URL asociada
