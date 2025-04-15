@@ -28,18 +28,4 @@ export class Tab3Page {
     }
   }
 
-    //MÉTODO para abrir WhatsApp
-    async openWhatsApp() {
-      const phoneNumber = '593982246028'; 
-      const message = 'Más información CGE 👍';
-      //mensaje para la URL
-      const encodedMessage = encodeURIComponent(message);
-      const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
-  
-      try {
-        await Browser.open({ url: whatsappUrl });
-      } catch (error) {
-        console.error('Error al abrir WhatsApp:', error);
-      }
-    }
 }
